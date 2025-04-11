@@ -1,0 +1,25 @@
+{
+  "packname": "My Sticker Pack",
+  "author": "My Bot",
+  "botName": "Nayan Bot",
+  "botOwner": "Nayan",
+  "ownerNumber": "8801615298449",
+  "PREFIX": ".",
+  "admin": [
+    "8801615298449",
+    ""
+  ],
+  "helpPic": "https://i.postimg.cc/pV7xByGv/IMG-20250106-WA0007.png",
+  "welPic": "https://i.imgur.com/mlnUVGS.jpeg",
+  "PORT": "3000",
+  "delay": 100,
+  "msg": {
+    "modAdmin": false,
+    "ban": false
+  },
+  "imgurKey": "1e87dfc28df0bac",
+  "giphyApiKey": "qnl7ssQChTdPjsKta2Ax2LMaGXz303tq",
+  "commandMode": "public",
+  "description": "This is a bot for managing group commands and automating tasks.",
+  "version": "1.0.4"
+}

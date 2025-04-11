@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAYAN WHATSAPP BOT</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, rgba(0, 123, 255, 0.8), rgba(255, 0, 123, 0.8));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid;
+            border-image: linear-gradient(45deg, rgba(0, 123, 255), rgba(255, 0, 123)) 1;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+        }
+        .circle-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid rgba(0, 123, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: rgb(0, 123, 255);
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: rgb(50, 50, 50);
+        }
+        .status-message {
+            font-size: 18px;
+            font-weight: bold;
+            color: ${data.status === 'true' ? 'rgb(0, 200, 0)' : 'rgb(200, 0, 0)'};
+        }
+        .author {
+            font-style: italic;
+            color: rgb(100, 100, 100);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: rgb(0, 123, 255);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+        }
+        .button:hover {
+            background: rgb(255, 0, 123);
+            box-shadow: 0 6px 15px rgba(255, 0, 123, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/WpmJhNVg/received-383729254132460.jpg" alt="Profile" class="circle-image">
+        <h1>Bot Status</h1>
+        <p class="status-message">Nayan Bot Successfully Activated!</p>
+        <p class="author"><strong>Author:</strong> Mohammad Nayan</p>
+        <a href="https://wa.me/+8801754168148" class="button" target="_blank">Open WhatsApp Bot</a>
+    </div>
+</body>
+</html>
